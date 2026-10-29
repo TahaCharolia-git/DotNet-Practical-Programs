@@ -1,0 +1,10 @@
+{
+  "name": "ABC College Website",
+  "short_name": "ABC College",
+  "description": "Official website of ABC College",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f4f4f4",
+  "theme_color": "#003366"
+}

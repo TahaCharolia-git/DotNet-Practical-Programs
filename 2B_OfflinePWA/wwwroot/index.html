@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RecipeHub</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="icon-192.png">
+    <meta name="theme-color" content="#d84315">
+</head>
+
+<body>
+
+    <header>
+        <h1>RecipeHub</h1>
+        <p>Quick recipes that stay with you, even without internet</p>
+    </header>
+
+    <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Welcome to RecipeHub</h2>
+            <p>
+                RecipeHub keeps your favourite kitchen recipes one tap away.
+                The complete app is stored inside your browser, so you can open
+                every recipe even when your internet connection drops.
+            </p>
+        </section>
+
+        <section>
+            <h2>Today's Special</h2>
+            <ul>
+                <li><strong>Masala Omelette</strong> - 5 mins, eggs, onion, green chilli</li>
+                <li><strong>Veg Maggi</strong> - 7 mins, noodles, mixed vegetables</li>
+                <li><strong>Cold Coffee</strong> - 3 mins, milk, sugar, ice cubes</li>
+                <li><strong>Kanda Poha</strong> - 10 mins, flattened rice, peanuts</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Copyright 2026 RecipeHub</p>
+    </footer>
+
+    <script>
+    if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+            navigator.serviceWorker.register("/sw.js")
+                .then(() => {
+                    console.log("Service Worker Registered");
+                })
+                .catch(error => {
+                    console.log("Service Worker Error:", error);
+                });
+        });
+    }    </script>
+
+</body>
+</html>

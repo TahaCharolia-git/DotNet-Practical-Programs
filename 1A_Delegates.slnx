@@ -1,0 +1,13 @@
+<Solution>
+  <Project Path="1A_Delegates/1A_Delegates.csproj" />
+  <Project Path="1B_CollegePWA/1B_CollegePWA.csproj" />
+  <Project Path="2A_Overloading/2A_Overloading.csproj" />
+  <Project Path="2B_OfflinePWA/2B_OfflinePWA.csproj" />
+  <Project Path="3A_InterfaceArea/3A_InterfaceArea.csproj" />
+  <Project Path="3B_TravelDiaryPWA/3B_TravelDiaryPWA.csproj" />
+  <Project Path="4A_BankAccount/4A_BankAccount.csproj" />
+  <Project Path="5A_FloydsTriangle/5A_FloydsTriangle.csproj" />
+  <Project Path="6A_RegistrationForm/6A_RegistrationForm.csproj" Id="d4c8a2e1-5b7f-4e3d-9a6c-2f8b1d4e7c03" />
+  <Project Path="7A_AdRotator/7A_AdRotator.csproj" Id="8f3b6d21-4a7c-4d5e-b9e2-6c1d8a5f3b72" />
+  <Project Path="8A_CookiesDemo/8A_CookiesDemo.csproj" Id="b2e5f7a3-6d1c-4e8f-a5b9-3e7d2c6f1a84" />
+</Solution>

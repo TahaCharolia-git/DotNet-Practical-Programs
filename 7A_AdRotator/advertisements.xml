@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/images/ad1.png</ImageUrl>
+    <NavigateUrl>https://www.example.com/sale</NavigateUrl>
+    <AlternateText>Big Sale - up to 50% off</AlternateText>
+    <Keyword>Sale</Keyword>
+    <Impressions>60</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/ad2.png</ImageUrl>
+    <NavigateUrl>https://www.example.com/new</NavigateUrl>
+    <AlternateText>New arrivals just landed</AlternateText>
+    <Keyword>New</Keyword>
+    <Impressions>30</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/ad3.png</ImageUrl>
+    <NavigateUrl>https://www.example.com/app</NavigateUrl>
+    <AlternateText>Download our mobile app</AlternateText>
+    <Keyword>App</Keyword>
+    <Impressions>10</Impressions>
+  </Ad>
+</Advertisements>

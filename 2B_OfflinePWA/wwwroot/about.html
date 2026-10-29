@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About - RecipeHub</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="icon-192.png">
+    <meta name="theme-color" content="#d84315">
+</head>
+
+<body>
+
+    <header>
+        <h1>RecipeHub</h1>
+        <p>Quick recipes that stay with you, even without internet</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>About RecipeHub</h2>
+            <p>
+                RecipeHub is a Progressive Web App built with HTML, CSS,
+                JavaScript and a Service Worker. It caches every required
+                resource so the app keeps working without a network
+                connection.
+            </p>
+        </section>
+
+        <section>
+            <h2>What is stored offline</h2>
+            <ul>
+                <li>Home and About pages</li>
+                <li>The custom offline screen</li>
+                <li>style.css for the complete design</li>
+                <li>manifest.json and app icons</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Features</h2>
+            <ul>
+                <li>Works without an internet connection</li>
+                <li>Can be installed on the home screen</li>
+                <li>No sign up required</li>
+                <li>Lightweight and fast</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright 2026 RecipeHub</p>
+    </footer>
+
+    <script>
+    if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+            navigator.serviceWorker.register("/sw.js")
+                .then(() => {
+                    console.log("Service Worker Registered");
+                })
+                .catch(error => {
+                    console.log("Service Worker Error:", error);
+                });
+        });
+    }
+    </script>
+
+</body>
+</html>

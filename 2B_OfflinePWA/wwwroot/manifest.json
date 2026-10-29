@@ -1,0 +1,24 @@
+{
+  "name": "RecipeHub - Offline Recipes",
+  "short_name": "RecipeHub",
+  "description": "Read your favourite recipes even when the internet is not available",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fff3e0",
+  "theme_color": "#d84315",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
