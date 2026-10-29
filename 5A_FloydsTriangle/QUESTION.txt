@@ -1,0 +1,9 @@
+QUESTION
+
+5 a. Write a C# program to accept the number of rows from the user and display
+Floyd's triangle using nested loops.
+
+----
+
+Project: 5A_FloydsTriangle (C# console application)
+Run: open 5A_FloydsTriangle.sln -> Ctrl+F5 (rows input dena padega)

@@ -1,0 +1,10 @@
+QUESTION
+
+3 b. Develop a PWA that caches HTML, CSS, JavaScript, and image files using
+a Service Worker so that the application can work without an internet
+connection.
+
+----
+
+Project: 3B_TravelDiaryPWA (ASP.NET Core static PWA + service worker cache)
+Run: open 3B_TravelDiaryPWA.sln -> F5

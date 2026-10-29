@@ -1,0 +1,10 @@
+QUESTION
+
+3 a. Create an interface containing a method to calculate area. Implement the
+interface in Circle and Rectangle classes and display their respective areas
+using C#.
+
+----
+
+Project: 3A_InterfaceArea (C# console application)
+Run: open 3A_InterfaceArea.sln -> Ctrl+F5

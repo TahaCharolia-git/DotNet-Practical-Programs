@@ -1,0 +1,10 @@
+QUESTION
+
+4 b. Create an HTML page linked to a manifest.json file. Configure the
+application name, icons, start URL, theme color, background color, and display
+mode.
+
+----
+
+Project: 4B_ManifestPWA (HTML page + manifest.json)
+Run: open 4B_ManifestPWA.sln -> F5 (page par manifest values table dikhega)

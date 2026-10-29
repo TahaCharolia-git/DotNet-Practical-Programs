@@ -1,0 +1,10 @@
+QUESTION
+
+6 a. Develop a student registration form using RequiredFieldValidator,
+RangeValidator, CompareValidator, and RegularExpressionValidator to validate
+user input.
+
+----
+
+Project: 6A_RegistrationForm (ASP.NET Web Forms - Default.aspx ke andar charo validators)
+Run: open 6A_RegistrationForm.sln -> Set as Startup Project -> F5

@@ -1,0 +1,9 @@
+QUESTION
+
+8 a. Develop a web application to demonstrate session cookies and persistent
+cookies. Store and retrieve user information using cookies.
+
+----
+
+Project: 8A_CookiesDemo (session cookie + 7-day persistent cookie, read/delete)
+Run: open 8A_CookiesDemo.sln -> Set as Startup Project -> F5

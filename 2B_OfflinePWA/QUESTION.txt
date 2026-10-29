@@ -1,0 +1,9 @@
+QUESTION
+
+2 b. Create a PWA that displays a custom offline page whenever the user loses
+internet connectivity. Use a Service Worker to cache the required resources.
+
+----
+
+Project: 2B_OfflinePWA (ASP.NET Core static PWA + service worker + offline.html)
+Run: open 2B_OfflinePWA.sln -> F5

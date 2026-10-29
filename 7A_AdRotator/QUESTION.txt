@@ -1,0 +1,9 @@
+QUESTION
+
+7 a. Create an ASP.NET Web Forms application that displays rotating
+advertisements using the AdRotator control and an advertisement XML file.
+
+----
+
+Project: 7A_AdRotator (Default.aspx + advertisements.xml + 3 banner images)
+Run: open 7A_AdRotator.sln -> Set as Startup Project -> F5 (har refresh pe naya ad)

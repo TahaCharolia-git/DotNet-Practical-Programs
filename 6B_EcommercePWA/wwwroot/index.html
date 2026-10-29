@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shop Online</title>
+
+    <meta name="theme-color" content="#c1440e">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="icons/icon-192.png">
+</head>
+
+<body>
+
+    <h1>Shop Online</h1>
+
+    <h2>Products</h2>
+
+    <table id="productTable" border="1" cellpadding="8" cellspacing="0">
+        <tr>
+            <th>Item</th>
+            <th>Price (Rs.)</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>Wireless Mouse</td>
+            <td>450</td>
+            <td><button onclick="addToCart('Wireless Mouse', 450)">Add to Cart</button></td>
+        </tr>
+        <tr>
+            <td>USB Keyboard</td>
+            <td>700</td>
+            <td><button onclick="addToCart('USB Keyboard', 700)">Add to Cart</button></td>
+        </tr>
+        <tr>
+            <td>HD Webcam</td>
+            <td>1500</td>
+            <td><button onclick="addToCart('HD Webcam', 1500)">Add to Cart</button></td>
+        </tr>
+        <tr>
+            <td>Pen Drive 64 GB</td>
+            <td>550</td>
+            <td><button onclick="addToCart('Pen Drive 64 GB', 550)">Add to Cart</button></td>
+        </tr>
+        <tr>
+            <td>Headphones</td>
+            <td>900</td>
+            <td><button onclick="addToCart('Headphones', 900)">Add to Cart</button></td>
+        </tr>
+    </table>
+
+    <h2>Shopping Cart</h2>
+
+    <table id="cartTable" border="1" cellpadding="8" cellspacing="0">
+        <tr>
+            <th>Item</th>
+            <th>Price (Rs.)</th>
+            <th>Qty</th>
+            <th></th>
+        </tr>
+    </table>
+
+    <p id="emptyMsg">Cart is empty.</p>
+
+    <p>
+        Total : Rs. <b id="total">0</b>
+        <button onclick="clearCart()">Clear Cart</button>
+    </p>
+
+    <script src="cart.js"></script>
+</body>
+</html>

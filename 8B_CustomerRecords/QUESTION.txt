@@ -1,0 +1,9 @@
+QUESTION
+
+8 b. Create a PWA to add, view, update, and delete customer records. Store
+records locally so that customers' details remain accessible offline.
+
+----
+
+Project: 8B_CustomerRecords (CRUD in localStorage + service worker offline)
+Run: open 8B_CustomerRecords.sln -> F5

@@ -1,0 +1,10 @@
+QUESTION
+
+6 b. Develop an e-commerce PWA that displays a list of products and allows
+users to add products to a shopping cart. Store the cart locally so it remains
+available in offline mode.
+
+----
+
+Project: 6B_EcommercePWA (product list + cart in localStorage + service worker)
+Run: open 6B_EcommercePWA.sln -> F5

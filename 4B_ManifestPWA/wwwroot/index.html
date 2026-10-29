@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My PWA App</title>
+
+    <meta name="theme-color" content="#1565c0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="icons/icon-192.png">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+</head>
+
+<body>
+
+    <h1>My PWA App</h1>
+
+    <p>
+        This page is linked to a manifest.json file.
+        Open the browser menu and check Application &gt; Manifest
+        to see the configured values.
+    </p>
+
+    <h2>Manifest Settings</h2>
+
+    <table border="1" cellpadding="6" cellspacing="0">
+        <tr><th>Property</th><th>Value</th></tr>
+        <tr><td>name</td><td id="v-name"></td></tr>
+        <tr><td>short_name</td><td id="v-short"></td></tr>
+        <tr><td>icons</td><td id="v-icons"></td></tr>
+        <tr><td>start_url</td><td id="v-start"></td></tr>
+        <tr><td>theme_color</td><td id="v-theme"></td></tr>
+        <tr><td>background_color</td><td id="v-bg"></td></tr>
+        <tr><td>display</td><td id="v-display"></td></tr>
+    </table>
+
+    <script>
+        fetch("manifest.json")
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("v-name").innerText = data.name;
+                document.getElementById("v-short").innerText = data.short_name;
+                document.getElementById("v-icons").innerText =
+                    data.icons.map(i => i.src + " (" + i.sizes + ")").join(", ");
+                document.getElementById("v-start").innerText = data.start_url;
+                document.getElementById("v-theme").innerText = data.theme_color;
+                document.getElementById("v-bg").innerText = data.background_color;
+                document.getElementById("v-display").innerText = data.display;
+            });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Customer Records</title>
+
+    <meta name="theme-color" content="#2e7d32">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="icons/icon-192.png">
+</head>
+
+<body>
+
+    <h1>Customer Records</h1>
+
+    <h2>Add Customer</h2>
+
+    <p>
+        Name : <input type="text" id="txtName">
+        Email : <input type="text" id="txtEmail">
+        Phone : <input type="text" id="txtPhone">
+    </p>
+
+    <p>
+        <button id="btnSave" onclick="saveRecord()">Add</button>
+        <button id="btnUpdate" onclick="updateRecord()" style="display:none">Update</button>
+        <button onclick="clearForm()">New / Clear</button>
+    </p>
+
+    <p id="msg"></p>
+
+    <h2>Customer List</h2>
+
+    <table id="custTable" border="1" cellpadding="8" cellspacing="0">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </table>
+
+    <p id="emptyMsg">No records yet.</p>
+
+    <script src="customer.js"></script>
+</body>
+</html>

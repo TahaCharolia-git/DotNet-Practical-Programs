@@ -1,0 +1,9 @@
+QUESTION
+
+4 a. Create a BankAccount class with AccountNumber and Balance properties.
+Implement validation to ensure that the balance cannot be negative.
+
+----
+
+Project: 4A_BankAccount (C# console application)
+Run: open 4A_BankAccount.sln -> Ctrl+F5

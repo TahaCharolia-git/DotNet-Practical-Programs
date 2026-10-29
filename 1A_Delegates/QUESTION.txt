@@ -1,0 +1,10 @@
+QUESTION
+
+1 a. Write a C# program to create methods for addition, subtraction,
+multiplication, and division. Use delegates to invoke these methods with
+suitable parameters.
+
+----
+
+Project: 1A_Delegates (C# console application)
+Run: open 1A_Delegates.sln -> Ctrl+F5

@@ -1,0 +1,10 @@
+QUESTION
+
+1 b. Develop a simple college website containing information about courses,
+faculty, and contact details. Convert it into a PWA using a Web App Manifest
+and Service Worker.
+
+----
+
+Project: 1B_CollegePWA (ASP.NET Core static web app + manifest + service worker)
+Run: open 1B_CollegePWA.sln -> F5

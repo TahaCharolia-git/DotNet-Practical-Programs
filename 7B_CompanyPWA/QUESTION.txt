@@ -1,0 +1,10 @@
+QUESTION
+
+7 b. Develop a simple company website containing information about product,
+services, about us, and contact details. Convert it into a PWA using a Web App
+Manifest and Service Worker.
+
+----
+
+Project: 7B_CompanyPWA (company site + manifest.json + service worker)
+Run: open 7B_CompanyPWA.sln -> F5
